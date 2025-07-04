@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x600') no-repeat center center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.movie-card {
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.movie-card .card-body {
+    padding: 15px;
+}
+
+.movie-card .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie-card .badge {
+    margin-right: 5px;
+}
+
+.download-btn {
+    width: 100%;
+}
+
+footer {
+    background-color: #212529;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+@media (max-width: 768px) {
+    header .nav {
+        display: none;
+    }
+    
+    .hero {
+        padding: 60px 0;
+    }
+}
