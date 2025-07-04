@@ -2,13 +2,13 @@ $(document).ready(function () {
   // Sample movie data
   const movies = [
     {
-      title: "Pathaan",
-      image: "https://via.placeholder.com/300x450?text=Pathaan",
-      year: 2023,
+      title: "Raid 2 - Hindi Movie NF WebRip 720p ",
+      image: "../images/raid2.webp",
+      year: 2025,
       category: "bollywood",
-      quality: "1080p",
-      size: "2.5GB",
-      downloadLink: "#"
+      quality: "720p",
+      size: "1.24GB",
+      downloadLink: "https://new20.gdtot.dad/file/1333972866"
     },
     {
       title: "Avatar: The Way of Water",

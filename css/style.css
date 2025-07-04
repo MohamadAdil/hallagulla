@@ -27,7 +27,7 @@ header {
 }
 
 .movie-card img {
-    height: 300px;
+    height: 400px;
     object-fit: cover;
 }
 
